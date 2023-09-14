@@ -1,28 +1,28 @@
 // ==UserScript==
-// @name         2 in 1 PiP
-// @version      1.0
-// @description  Removes atributes and lets Pip
+// @name         2 in 1
+// @version      2.0
+// @description  Removes attributes and lets PiP run when you press `alt+ctrl+p`
 // @author       Edward D
 // @include      http://*
 // @include      https://*
 // @namespace    https://edwarddk.github.io/EdwardD-Portfolio/
 // ==/UserScript==
-
-
+ 
+ 
 //FOR THE PIP PRESS ALT + CTRL + P
-
+ 
 (function() {
     'use strict';
-
+ 
     window.addEventListener("play", function(e) {
     e.target.removeAttribute("disablePictureInPicture")
 }, true)
-
+ 
 window.addEventListener("pause", function(e) {
     e.target.removeAttribute("disablePictureInPicture")
 }, true)
-
-    console.log('add pip keyup event listener');
+ 
+    console.log('RUNNING');
     document.body.addEventListener('keyup', function(e){
         if(e.altKey && e.ctrlKey && e.key === 'p') {
             var video = document.querySelector('video');
