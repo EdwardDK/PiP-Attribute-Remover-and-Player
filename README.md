@@ -9,7 +9,7 @@
 
  Status: <b>WORKING SO FAR</b>
  <br>
- Version: <b>2.2</b>
+ Version: <b>2.4</b>
  <br>
  Creator: <b>Edward D</b>
 <br>
