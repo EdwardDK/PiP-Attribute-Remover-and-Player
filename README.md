@@ -7,3 +7,5 @@ This script removes the attribute that blocks PiP and then with` ctrl+alt+p ` yo
  Status: <b>WORKING</b>
  <br>
  Version: <b>2.2</b>
+ <br>
+ Creator: <b>Edward D</b>
