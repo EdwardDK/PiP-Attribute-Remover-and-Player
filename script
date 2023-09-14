@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         2 in 1 PiP Tool
-// @version      2.2
+// @version      2.4
 // @description  Removes attributes and lets PiP run when you press `alt+ctrl+p`
 // @author       Edward D
 // @include      http://*
@@ -22,7 +22,7 @@ window.addEventListener("pause", function(e) {
     e.target.removeAttribute("disablePictureInPicture")
 }, true)
 
-    console.log('RUNNING');
+    console.log('RUNNING . . .');
     document.body.addEventListener('keyup', function(e){
         if(e.altKey && e.ctrlKey && e.key === 'p') {
             var video = document.querySelector('video');
