@@ -1,3 +1,4 @@
+<body color:#8de843;>
 # PiP-Attribute-Remover-and-Player
 
 This script removes the attribute that blocks PiP and then with` ctrl+alt+p ` you activate the picture in picture.<br>
@@ -9,3 +10,4 @@ This script removes the attribute that blocks PiP and then with` ctrl+alt+p ` yo
  Version: <b>2.2</b>
  <br>
  Creator: <b>Edward D</b>
+ </body>
