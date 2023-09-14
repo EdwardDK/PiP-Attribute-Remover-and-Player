@@ -1,7 +1,7 @@
 
 <h1>About</h1>
 
-<h2>This script removes the attribute that blocks PiP and then with` ALT+CTRL+P ` you activate the picture in picture.</h2><br>
+<h2>This script removes the attribute that blocks PiP and then with` ALT+CTRL+P ` you activate the picture in picture. I made this for GREASYFORK, it removes the attributes that usually block PiP on websites.</h2><br>
 <br>
 <b>GREASYFORK SCRIPT:</b> <a href="https://greasyfork.org/en/scripts/475305-2-in-1">LINK</a><br>
 
