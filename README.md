@@ -4,4 +4,5 @@ This script removes the attribute that blocks PiP and then with` ctrl+alt+p ` yo
 <br>
 <b>GREASYFORK SCRIPT:</b> <a href="https://greasyfork.org/en/scripts/475305-2-in-1">LINK</a>
 
- <b>Status: WORKING</b>
+ Status: <b>WORKING</b>
+ Version: <b>2.2</b>
