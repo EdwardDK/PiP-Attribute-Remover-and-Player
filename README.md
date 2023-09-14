@@ -1,7 +1,7 @@
 
 # PiP-Attribute-Remover-and-Player
-<body color:#8de843;>
-This script removes the attribute that blocks PiP and then with` ctrl+alt+p ` you activate the picture in picture.<br>
+
+This script removes the attribute that blocks PiP and then with` ALT+CTRL+P ` you activate the picture in picture.<br>
 <br>
 <b>GREASYFORK SCRIPT:</b> <a href="https://greasyfork.org/en/scripts/475305-2-in-1">LINK</a>
 
@@ -10,4 +10,5 @@ This script removes the attribute that blocks PiP and then with` ctrl+alt+p ` yo
  Version: <b>2.2</b>
  <br>
  Creator: <b>Edward D</b>
- </body>
+<br>
+Controls: <b>ALT+CTRL+P</b>
