@@ -1,0 +1,43 @@
+// ==UserScript==
+// @name         2 in 1 PiP Tool Beta 1
+// @version      2.4
+// @description  Removes attributes and lets PiP run when you press `alt+ctrl+p`
+// @author       Edward D
+// @include      http://*
+// @include      https://*
+// @namespace    https://edwarddk.github.io/EdwardD-Portfolio/
+// ==/UserScript==
+
+
+//FOR THE PIP PRESS ALT + CTRL + P
+
+(function() {
+    'use strict';
+
+    window.addEventListener("play", function(e) {
+        alert(' ALT + CTRL + P to activate')
+
+        e.target.removeAttribute("disablePictureInPicture")
+    }, true)
+
+
+    window.addEventListener("pause", function(e) {
+        e.target.removeAttribute("disablePictureInPicture")
+    }, true)
+
+    console.log('%c RUNNING . . .','font-size: 20px; font-weight: bold; color: blue;');
+
+    document.body.addEventListener('keyup', function(e){
+        if(e.altKey && e.ctrlKey && e.key === 'p') {
+            var video = document.querySelector('video');
+            video.requestPictureInPicture();
+            console.log('%c PiP Activated', 'font-size: 36px; font-weight: bold; color: green;')
+        }
+        else{
+            console.log('%c No video source found', 'font-size: 36px; font-weight: bold; color: red;')
+            console.log('%c ignore this if it still works', 'font-size: 30px; font-weight: bold; color: green;')
+        }
+    })
+})();
+
+
