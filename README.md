@@ -1,4 +1,4 @@
-<h1>IMPORTANT: I am working on improving this and making a bookmarklet. This is still in beta.</h1>
+<h1>IMPORTANT: I am working on improving this and making a bookmarklet. This is still getting updates, but is currently working</h1>
 
 <br>
 <h2>About</h2>
@@ -7,9 +7,8 @@
 <br>
 <b>Github Version:</b> <a href="https://github.com/EdwardDK/PiP-Attribute-Remover-and-Player">LINK</a><br>
 
- Status: <b>WORKING SO FAR</b>
  <br>
-Beta Status: <b>Couple of Bugs</b>
+Status: <b style="color: green">Working</b>
 <br>
  Version: <b>2.5</b>
  <br>
