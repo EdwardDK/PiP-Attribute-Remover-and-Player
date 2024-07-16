@@ -15,3 +15,5 @@ Status: <b style="color: green">Working</b>
  Creator: <b>Edward D</b>
 <br>
 Controls: <b>ALT+CTRL+P</b>
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=edwarddk)](https://github.com/edwarddk/github-readme-stats)
